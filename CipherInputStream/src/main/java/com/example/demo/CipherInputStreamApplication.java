@@ -17,10 +17,10 @@ public class CipherInputStreamApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		SimpleAudioPlayer player = new SimpleAudioPlayer();
-		URL url = new URL("http://localhost:8080/music");
-		player.load(url);
-		player.play();
+//		SimpleAudioPlayer player = new SimpleAudioPlayer();
+//		URL url = new URL("http://localhost:8080/music");
+//		player.load(url);
+//		player.play();
 	}
 
 }
