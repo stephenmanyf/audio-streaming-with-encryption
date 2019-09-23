@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+/Users/stephenman/Workspace/tutorial/data-streaming/.metadata/.plugins/org.eclipse.jdt.core
+4233727033.index
+1389704264.index
+1079589135.index
+2252125527.index
+1769054683.index
+3950018516.index
+4247335152.index
+4127269643.index
+1814688400.index
+2480571444.index
+4094378597.index
+2449900688.index
+3200687045.index
+2934267818.index
+1917291951.index
+2027329669.index
+2524758782.index
+2695137787.index
+2254281552.index
+3695156198.index

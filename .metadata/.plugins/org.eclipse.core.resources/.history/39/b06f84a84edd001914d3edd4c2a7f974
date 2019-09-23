@@ -1,0 +1,27 @@
+package com.example.demo;
+
+import java.io.File;
+
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import javax.sound.sampled.UnsupportedAudioFileException;
+
+public class SimpleAudioPlayer {
+
+	//to store current position
+	Long currentFrame;
+	Clip clip;
+	
+	//current status of clip
+	String status;
+	
+	AudioInputStream audioInputStream;
+	String filePath;
+	
+	//Constructor to initialize streams and clip
+	public SimpleAudioPlayer(File audioInputStreamArg) throws UnsupportedAudioFileException {
+		//create AudioInputStream object
+		audioInputStream = AudioSystem.getAudioInputStream(audioInputStreamArg);
+	}
+}

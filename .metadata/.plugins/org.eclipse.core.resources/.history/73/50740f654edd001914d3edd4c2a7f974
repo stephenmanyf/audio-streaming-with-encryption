@@ -1,0 +1,15 @@
+package com.example.demo;
+
+import javax.sound.sampled.Clip;
+
+public class SimpleAudioPlayer {
+
+	//to store current position
+	Long currentFrame;
+	Clip clip;
+	
+	//current status of clip
+	String status;
+	
+	AudioInputStream audioInputStream;
+}
